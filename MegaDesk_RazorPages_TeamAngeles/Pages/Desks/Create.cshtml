@@ -1,0 +1,74 @@
+﻿@page
+@model MegaDesk_RazorPages_TeamAngeles.Pages.Desks.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Desk</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Desk.DeskWidth" class="control-label"></label>
+                <input asp-for="Desk.DeskWidth" class="form-control" />
+                <span asp-validation-for="Desk.DeskWidth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.DeskDepth" class="control-label"></label>
+                <input asp-for="Desk.DeskDepth" class="form-control" />
+                <span asp-validation-for="Desk.DeskDepth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.NumDrawers" class="control-label"></label>
+                <input asp-for="Desk.NumDrawers" class="form-control" />
+                <span asp-validation-for="Desk.NumDrawers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.DeskMaterial" class="control-label"></label>
+                <input asp-for="Desk.DeskMaterial" class="form-control" />
+                <span asp-validation-for="Desk.DeskMaterial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.CustomerName" class="control-label"></label>
+                <input asp-for="Desk.CustomerName" class="form-control" />
+                <span asp-validation-for="Desk.CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.RushDays" class="control-label"></label>
+                <input asp-for="Desk.RushDays" class="form-control" />
+                <span asp-validation-for="Desk.RushDays" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.DrawerCost" class="control-label"></label>
+                <input asp-for="Desk.DrawerCost" class="form-control" />
+                <span asp-validation-for="Desk.DrawerCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.QuotePrice" class="control-label"></label>
+                <input asp-for="Desk.QuotePrice" class="form-control" />
+                <span asp-validation-for="Desk.QuotePrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desk.RushCost" class="control-label"></label>
+                <input asp-for="Desk.RushCost" class="form-control" />
+                <span asp-validation-for="Desk.RushCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
