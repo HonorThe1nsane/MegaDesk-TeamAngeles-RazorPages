@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\troym\\source\\repos\\MegaDesk-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj": {}
+    "C:\\Users\\Pierce\\source\\repos\\MegaDesk-TeamAngeles-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj": {}
   },
   "projects": {
-    "C:\\Users\\troym\\source\\repos\\MegaDesk-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj": {
+    "C:\\Users\\Pierce\\source\\repos\\MegaDesk-TeamAngeles-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\troym\\source\\repos\\MegaDesk-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj",
+        "projectUniqueName": "C:\\Users\\Pierce\\source\\repos\\MegaDesk-TeamAngeles-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj",
         "projectName": "MegaDesk_RazorPages_TeamAngeles",
-        "projectPath": "C:\\Users\\troym\\source\\repos\\MegaDesk-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj",
-        "packagesPath": "C:\\Users\\troym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\troym\\source\\repos\\MegaDesk-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\obj\\",
+        "projectPath": "C:\\Users\\Pierce\\source\\repos\\MegaDesk-TeamAngeles-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj",
+        "packagesPath": "C:\\Users\\Pierce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pierce\\source\\repos\\MegaDesk-TeamAngeles-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\troym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pierce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
