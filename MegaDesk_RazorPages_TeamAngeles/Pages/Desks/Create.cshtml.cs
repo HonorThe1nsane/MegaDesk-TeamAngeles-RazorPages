@@ -37,7 +37,7 @@ namespace MegaDesk_RazorPages_TeamAngeles.Pages.Desks
             }
 
             quoteDesk.QuotePrice = CalculateQuoteTotal(quoteDesk);
-            /*quoteDesk.RushDays = quoteDesk.*/
+            quoteDesk.RushDays = RushDays(quoteDesk);
             
             _context.Desk.Add(quoteDesk);
             await _context.SaveChangesAsync();
@@ -50,7 +50,7 @@ namespace MegaDesk_RazorPages_TeamAngeles.Pages.Desks
             float calMaterialCost = quote.CalcMaterialCost(quote.DeskMaterial);
             float calShippingCost = quote.CalcRushOrderCost(quote.RushDays, quote.SurfaceArea);
             float drawerCost = quote.CalcDrawerCost();
-            float surfaceArea = quote.CalcSurfaceArea(quote.DeskWidth, quote.DeskDepth);
+            
             float surfaceAreaCost = quote.CalcSurfaceAreaCost(quote.SurfaceArea);
             float totalCost = calMaterialCost + calShippingCost + drawerCost + surfaceAreaCost;
 
@@ -58,10 +58,13 @@ namespace MegaDesk_RazorPages_TeamAngeles.Pages.Desks
             return totalCost;
         }
 
-  /*        public float RushDays(DeskQuote)
+        public float RushDays(Desk quote)
         {
+            float rushDays = quote.RushDays;
+            return rushDays;
 
-        }*/
+
+        }
     }
     }
 
