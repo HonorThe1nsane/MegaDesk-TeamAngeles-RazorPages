@@ -1,13 +1,23 @@
-﻿namespace MegaDesk_RazorPages_TeamAngeles.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
+
+namespace MegaDesk_RazorPages_TeamAngeles.Models
 {
     public class Desk
     {
         public int ID { get; set; }
+        [Range(24, 96)]
         public float DeskWidth { get; set; }
+        [Range(12, 48)]
         public float DeskDepth { get; set; }
+
+        [Display(Name = "Number of Drawers")]
+        [Range(0, 7)]
         public int NumDrawers { get; set; }
 
-
+        
+        [Display(Name = "Desk Material")]
+        [Required]
         public string DeskMaterial { get; set; }
 
 
@@ -18,13 +28,22 @@
         public const int MINNUMOFDRAWERS = 0;
         public const int MAXNUMOFDRAWERS = 7;
 
+        [Display(Name = "Customer Name")]
+        [Required]
         public string CustomerName { get; set; }
+
+        [DataType(DataType.Date)]
+        [Display(Name = "Date of Quote")]
         public string QuoteDate;
+        
+        [Display(Name = "Shipping Option")]
         public float RushDays { get; set; }
 
 
         public float DrawerCost { get; set; }
-
+        
+        [Display(Name = "Quote Total")]
+        [DataType(DataType.Currency)]
         public float QuotePrice { get; set; }
         public float RushCost { get; set; }
 

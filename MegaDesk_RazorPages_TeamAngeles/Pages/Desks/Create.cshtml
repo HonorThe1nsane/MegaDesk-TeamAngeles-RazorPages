@@ -14,18 +14,18 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Desk.DeskWidth" class="control-label"></label>
-                <input asp-for="Desk.DeskWidth" class="form-control" />
-                <span asp-validation-for="Desk.DeskWidth" class="text-danger"></span>
+                <label asp-for="quoteDesk.DeskWidth" class="control-label"></label>
+                <input asp-for="quoteDesk.DeskWidth" class="form-control" />
+                <span asp-validation-for="quoteDesk.DeskWidth" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Desk.DeskDepth" class="control-label"></label>
-                <input asp-for="Desk.DeskDepth" class="form-control" />
-                <span asp-validation-for="Desk.DeskDepth" class="text-danger"></span>
+                <label asp-for="quoteDesk.DeskDepth" class="control-label"></label>
+                <input asp-for="quoteDesk.DeskDepth" class="form-control" />
+                <span asp-validation-for="quoteDesk.DeskDepth" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Desk.NumDrawers" class="control-label"></label>
-                <select asp-for="Desk.NumDrawers" class="form-control">
+                <label asp-for="quoteDesk.NumDrawers" class="control-label"></label>
+                <select asp-for="quoteDesk.NumDrawers" class="form-control">
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -35,33 +35,33 @@
                     <option value="6">6</option>
                     <option value="7">7</option>
                 </select>
-                <span asp-validation-for="Desk.NumDrawers" class="text-danger"></span>
+                <span asp-validation-for="quoteDesk.NumDrawers" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Desk.DeskMaterial" class="control-label"></label>
-                <select asp-for="Desk.DeskMaterial" class="form-control" id="material_input" onchange="preview()">
+                <label asp-for="quoteDesk.DeskMaterial" class="control-label"></label>
+                <select asp-for="quoteDesk.DeskMaterial" class="form-control" id="material_input" onchange="preview()">
                     <option value="Oak">Oak</option>
                     <option value="Laminate">Laminate</option>
                     <option value="Pine">Pine</option>
                     <option value="Rosewood">Rosewood</option>
                     <option value="Veneer">Veneer</option>
                 </select>
-                <span asp-validation-for="Desk.DeskMaterial" class="text-danger"></span>
+                <span asp-validation-for="quoteDesk.DeskMaterial" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Desk.CustomerName" class="control-label"></label>
-                <input asp-for="Desk.CustomerName" class="form-control" />
-                <span asp-validation-for="Desk.CustomerName" class="text-danger"></span>
+                <label asp-for="quoteDesk.CustomerName" class="control-label"></label>
+                <input asp-for="quoteDesk.CustomerName" class="form-control" />
+                <span asp-validation-for="quoteDesk.CustomerName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Desk.RushDays" class="control-label"></label>
-                 <select asp-for="Desk.NumDrawers" class="form-control">
+                <label asp-for="quoteDesk.RushDays" class="control-label"></label>
+                <select asp-for="quoteDesk.NumDrawers" class="form-control">
                     <option value="3">3</option>
                     <option value="5">5</option>
                     <option value="7">7</option>
                     <option value="14">Standard</option>
                 </select>
-                <span asp-validation-for="Desk.RushDays" class="text-danger"></span>
+                <span asp-validation-for="quoteDesk.RushDays" class="text-danger"></span>
             </div>
            @* <div class="form-group">
                 <label asp-for="Desk.DrawerCost" class="control-label"></label>
