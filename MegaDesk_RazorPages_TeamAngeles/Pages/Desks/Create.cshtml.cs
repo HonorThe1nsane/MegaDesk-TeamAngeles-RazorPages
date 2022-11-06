@@ -37,7 +37,7 @@ namespace MegaDesk_RazorPages_TeamAngeles.Pages.Desks
             }
 
             quoteDesk.QuotePrice = CalculateQuoteTotal(quoteDesk);
-            quoteDesk.RushDays = quoteDesk.
+            /*quoteDesk.RushDays = quoteDesk.*/
             
             _context.Desk.Add(quoteDesk);
             await _context.SaveChangesAsync();
@@ -58,7 +58,7 @@ namespace MegaDesk_RazorPages_TeamAngeles.Pages.Desks
             return totalCost;
         }
 
-    /*    public float RushDays(DeskQuote)
+  /*        public float RushDays(DeskQuote)
         {
 
         }*/
