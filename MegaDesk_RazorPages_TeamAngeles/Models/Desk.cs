@@ -7,8 +7,12 @@ namespace MegaDesk_RazorPages_TeamAngeles.Models
     {
         public int ID { get; set; }
         [Range(24, 96)]
+
+        [Display(Name = "Width")]
         public float DeskWidth { get; set; }
         [Range(12, 48)]
+
+        [Display(Name = "Depth")]
         public float DeskDepth { get; set; }
 
         [Display(Name = "Number of Drawers")]
@@ -39,7 +43,7 @@ namespace MegaDesk_RazorPages_TeamAngeles.Models
         [Display(Name = "Shipping Option")]
         public float RushDays { get; set; }
 
-
+        [Display(Name = "Cost")]
         public float DrawerCost { get; set; }
         
         [Display(Name = "Quote Total")]
