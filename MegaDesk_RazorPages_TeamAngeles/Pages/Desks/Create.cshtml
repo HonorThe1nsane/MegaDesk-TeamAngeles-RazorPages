@@ -55,7 +55,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Desk.RushDays" class="control-label"></label>
-                <input asp-for="Desk.RushDays" class="form-control" />
+                 <select asp-for="Desk.NumDrawers" class="form-control">
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="14">Standard</option>
+                </select>
                 <span asp-validation-for="Desk.RushDays" class="text-danger"></span>
             </div>
            @* <div class="form-group">
