@@ -14,6 +14,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.Desk[0].CustomerName)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Desk[0].DeskWidth)
             </th>
             <th>
@@ -25,9 +28,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Desk[0].DeskMaterial)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Desk[0].CustomerName)
-            </th>
+            
             <th>
                 @Html.DisplayNameFor(model => model.Desk[0].RushDays)
             </th>
@@ -46,6 +47,9 @@
     <tbody>
 @foreach (var item in Model.Desk) {
         <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerName)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DeskWidth)
             </td>
@@ -58,9 +62,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.DeskMaterial)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CustomerName)
-            </td>
+            
             <td>
                 @Html.DisplayFor(modelItem => item.RushDays)
             </td>
