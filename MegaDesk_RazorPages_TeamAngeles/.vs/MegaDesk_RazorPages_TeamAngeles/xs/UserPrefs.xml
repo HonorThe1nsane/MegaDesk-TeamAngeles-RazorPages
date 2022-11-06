@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{9BF778DF-B270-476A-A2A5-72FF256AB228}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Desks/Index.cshtml">
+    <Files>
+      <File FileName="Pages/Desks/Index.cshtml.cs" Line="42" Column="37" />
+      <File FileName="Pages/Desks/Index.cshtml" Line="50" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MegaDesk_RazorPages_TeamAngeles" expanded="True">
+            <Node name="MegaDesk_RazorPages_TeamAngeles" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Desks" expanded="True">
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MegaDesk__RazorPages__TeamAngeles PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
