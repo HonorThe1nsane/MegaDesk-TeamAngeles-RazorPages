@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MegaDesk_RazorPages_TeamAngeles",
+    "\\MegaDesk_RazorPages_TeamAngeles\\obj",
+    "\\MegaDesk_RazorPages_TeamAngeles\\obj\\Release",
+    "\\MegaDesk_RazorPages_TeamAngeles\\obj\\Release\\net5.0"
   ],
-  "SelectedNode": "\\MegaDesk_RazorPages_TeamAngeles.sln",
   "PreviewInSolutionExplorer": false
 }
