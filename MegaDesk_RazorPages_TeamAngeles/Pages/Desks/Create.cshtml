@@ -30,7 +30,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="Desk.DeskMaterial" class="control-label"></label>
-                <input asp-for="Desk.DeskMaterial" class="form-control" />
+                <select asp-for="Desk.DeskMaterial" class="form-control" id="material_input" onchange="preview()">
+                    <option value="Oak">Oak</option>
+                    <option value="Laminate">Laminate</option>
+                    <option value="Pine">Pine</option>
+                    <option value="Rosewood">Rosewood</option>
+                    <option value="Veneer">Veneer</option>
+                </select>
                 <span asp-validation-for="Desk.DeskMaterial" class="text-danger"></span>
             </div>
             <div class="form-group">
