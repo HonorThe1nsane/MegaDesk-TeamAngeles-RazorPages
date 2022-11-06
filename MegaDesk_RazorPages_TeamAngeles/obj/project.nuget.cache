@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yaQMf88B1ZO0KJZwoGXXxzETdGKrf9nlGsrxfQ2tIjJkcAa6rVs9l0RdMFieo+AkMJFudYGBGZzHyLxxhcSIMQ==",
+  "dgSpecHash": "AASgR5IdPpXiqlwtZjjpBXqEoW2hHLx9TjRhYpnOEC4eqUuHtIlhB/wRysf8nYmxqaev0l4VzdrogqX6dRyezg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pierce\\source\\repos\\MegaDesk-TeamAngeles-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj",
+  "projectFilePath": "C:\\Users\\Pierce\\Source\\Repos\\MegaDesk-TeamAngeles-RazorPages\\MegaDesk_RazorPages_TeamAngeles\\MegaDesk_RazorPages_TeamAngeles.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pierce\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pierce\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
