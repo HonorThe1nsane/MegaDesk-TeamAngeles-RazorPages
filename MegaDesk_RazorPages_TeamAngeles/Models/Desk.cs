@@ -37,7 +37,7 @@ namespace MegaDesk_RazorPages_TeamAngeles.Models
         public string CustomerName { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name = "Date of Quote")]
+        [Display(Name = "Created")]
         public string QuoteDate;
         
         [Display(Name = "Shipping Option")]
