@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
 namespace MegaDesk_RazorPages_TeamAngeles.Models
@@ -32,27 +33,26 @@ namespace MegaDesk_RazorPages_TeamAngeles.Models
         public const int MINNUMOFDRAWERS = 0;
         public const int MAXNUMOFDRAWERS = 7;
 
-        [Display(Name = "Customer Name")]
+        [Display(Name = "Name")]
         [Required]
         public string CustomerName { get; set; }
 
         [DataType(DataType.Date)]
         [Display(Name = "Created")]
-        public string QuoteDate;
+        public DateTime QuoteDate { get; set; } = DateTime.Now;
         
-        [Display(Name = "Shipping Option")]
+        [Display(Name = "Express Shipping")]
         public float RushDays { get; set; }
 
         [Display(Name = "Drawer Cost")]
         public float DrawerCost { get; set; }
-        
+
+        [Display(Name = "Shipping Cost")]
+        public float RushCost { get; set; }
+
         [Display(Name = "Quote Total")]
         [DataType(DataType.Currency)]
         public float QuotePrice { get; set; }
-
-        [Display(Name = "Rush Cost")]
-        public float RushCost { get; set; }
-
 
 
         public float MaterialCost;
@@ -62,7 +62,6 @@ namespace MegaDesk_RazorPages_TeamAngeles.Models
         private const int BASE_PRICE = 200;
         private const int SIZE_TRESHHOLD = 1000;
         private const int PRICE_PER_DRAWER = 50;
-
 
 
         public float CalcMaterialCost(string material)
@@ -191,9 +190,5 @@ namespace MegaDesk_RazorPages_TeamAngeles.Models
             QuotePrice = BASE_PRICE + SizeCost + DrawerCost + MaterialCost + RushCost;
             return QuotePrice;
         }
-
-
-
-
     }
 }

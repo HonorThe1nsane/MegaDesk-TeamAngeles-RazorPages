@@ -10,64 +10,68 @@
 <div>
     <h4>Desk</h4>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.DeskWidth)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.DeskWidth)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.DeskDepth)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.DeskDepth)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.NumDrawers)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.NumDrawers)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.DeskMaterial)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.DeskMaterial)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.CustomerName)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.CustomerName)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.RushDays)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.RushDays)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.DrawerCost)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.DrawerCost)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.QuotePrice)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.QuotePrice)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Desk.RushCost)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Desk.RushCost)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-page="./Edit" asp-route-id="@Model.Desk.ID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <div class="card">
+        <dl class="row card-body">
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.CustomerName)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.CustomerName)
+            </dd>
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.DeskWidth)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.DeskWidth)
+            </dd>
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.DeskDepth)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.DeskDepth)
+            </dd>
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.NumDrawers)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.NumDrawers)
+            </dd>
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.DeskMaterial)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.DeskMaterial)
+            </dd>
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.RushDays)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.RushDays)
+            </dd>
+        </dl>
+        <dl class="row card-body">
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.DrawerCost)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.DrawerCost)
+            </dd>
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.RushCost)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.RushCost)
+            </dd>
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.Desk.QuotePrice)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.Desk.QuotePrice)
+            </dd>
+        </dl>
+        <div class="card-footer">
+            <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@Model.Desk.ID">Edit</a> |
+            <a class="btn btn-outline-secondary" asp-page="./Index">Back to List</a>
+        </div>
+    </div>
 </div>
