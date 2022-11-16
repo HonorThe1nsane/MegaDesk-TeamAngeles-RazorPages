@@ -298,3 +298,8 @@ C:\Users\Pierce\source\repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages
 C:\Users\Pierce\source\repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\MegaDesk_RazorPages_TeamAngeles.pdb
 C:\Users\Pierce\source\repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\MegaDesk_RazorPages_TeamAngeles.genruntimeconfig.cache
 C:\Users\Pierce\source\repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\ref\MegaDesk_RazorPages_TeamAngeles.dll
+C:\Users\Pierce\Source\Repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\staticwebassets\MegaDesk_RazorPages_TeamAngeles.StaticWebAssets.Pack.cache
+C:\Users\Pierce\Source\Repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\staticwebassets\msbuild.MegaDesk_RazorPages_TeamAngeles.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Pierce\Source\Repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\staticwebassets\msbuild.build.MegaDesk_RazorPages_TeamAngeles.props
+C:\Users\Pierce\Source\Repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.MegaDesk_RazorPages_TeamAngeles.props
+C:\Users\Pierce\Source\Repos\MegaDesk-TeamAngeles-RazorPages\MegaDesk_RazorPages_TeamAngeles\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.MegaDesk_RazorPages_TeamAngeles.props

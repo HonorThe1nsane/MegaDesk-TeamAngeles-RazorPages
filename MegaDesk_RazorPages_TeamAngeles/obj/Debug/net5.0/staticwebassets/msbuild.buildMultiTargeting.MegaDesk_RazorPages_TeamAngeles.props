@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MegaDesk_RazorPages_TeamAngeles.props" />
+</Project>
