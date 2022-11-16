@@ -45,9 +45,11 @@ namespace MegaDesk_RazorPages_TeamAngeles.Models
         public float RushDays { get; set; }
 
         [Display(Name = "Drawer Cost")]
+        [DataType(DataType.Currency)]
         public float DrawerCost { get; set; }
 
         [Display(Name = "Shipping Cost")]
+        [DataType(DataType.Currency)]
         public float RushCost { get; set; }
 
         [Display(Name = "Quote Total")]
